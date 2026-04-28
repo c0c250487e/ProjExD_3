@@ -176,6 +176,7 @@ def main():
     score = Score()
     clock = pg.time.Clock()
     tmr = 0
+    
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT:
